@@ -28,4 +28,4 @@ ls
 ls
 ./EfiRom -e nb-ultra-255h.efi IgdAssignmentDxe.efi PlatformGopPolicy.efi -f 0x8086 -i 0xffff -o nb-255h-qemu10.rom
 ls
-./EfiRom -e IntelGopDriver.efi IgdAssignmentDxe.efi PlatformGopPolicy.efi -f 0x8086 -i 0xffff -o IntelGopDriver.efi.rom
+./EfiRom -e IntelGopDriver.efi IgdAssignmentDxe.efi PlatformGopPolicy.efi -f 0x8086 -i 0x7dd1 -o IntelGopDriver.efi.rom
